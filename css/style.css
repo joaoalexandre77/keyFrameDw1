@@ -50,18 +50,42 @@ body{
     16%{
         background: url("../img/top-down-game-3-animations-example\ \(2_0\).png") 0px 0px;
         bottom: 400px;
-        left: 63%;
+        left: 35%;
         z-index: 1;
     }
 
     24%{
         background: url("../img/top-down-game-3-animations-example\ \(1_0\).png") 0px 0px;
-        left: 63%;
-        bottom: 600px;
+        left: 35%;
+        bottom: 700px;
         z-index: 1;
     }
     
     32%{
-        
+        background: url("../img/top-down-game-3-animations-example\ \(2_0\).png") 0px 0px;
+        left: 28%;
+        bottom: 700px;
+        z-index: 1;
+    }
+
+    40%{
+        background: url("../img/top-down-game-3-animations-example\ \(1_0\).png") 0px 0px;
+        left: 28%;
+        bottom: 750px;
+        z-index: 1; 
+    }
+    
+    48%{
+        background: url("../img/top-down-game-3-animations-example\ \(1_0\).png") 0px 0px;
+        left: 28%;
+        bottom: 750px;
+        z-index: -1; 
+    }
+
+    56%{
+        background: url("../img/top-down-game-3-animations-example\ \(0_0\).png") 0px 0px;
+        left: 28%;
+        bottom: 700px;
+        z-index: 1;
     }
 }
