@@ -31,7 +31,7 @@ body{
 
 @keyframes sprite {
     from {background-position: 0px;}
-    to {background-position: 480px;}
+    to {background-position: 486px;}
 }
 
 @keyframes sprite2 {
