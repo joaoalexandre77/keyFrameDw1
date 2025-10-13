@@ -1,0 +1,67 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.imgFundo{
+    background-image: url(../img/41394_pokemon.jpg);
+    height: 1080px;
+    width: 1100px;
+    resize: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sprite{
+    width: 160px;
+    height: 233px;
+    bottom: 0px;
+    left: 50%;
+    position: absolute;
+    animation: sprite2 20s infinite, sprite 1s steps(3) infinite;
+}
+
+@keyframes sprite {
+    from {background-position: 0px;}
+    to {background-position: 480px;}
+}
+
+@keyframes sprite2 {
+    0%{
+        background: url("../img/top-down-game-3-animations-example\ \(1_0\).png") 0px 0px;
+        z-index: 1;
+    }
+
+    08%{
+        background: url("../img/top-down-game-3-animations-example\ \(1_0\).png") 0px 0px;
+        bottom: 400px;
+        left: 50%;
+        z-index: 1;
+    }
+    
+    16%{
+        background: url("../img/top-down-game-3-animations-example\ \(2_0\).png") 0px 0px;
+        bottom: 400px;
+        left: 63%;
+        z-index: 1;
+    }
+
+    24%{
+        background: url("../img/top-down-game-3-animations-example\ \(1_0\).png") 0px 0px;
+        left: 63%;
+        bottom: 600px;
+        z-index: 1;
+    }
+    
+    32%{
+        
+    }
+}
