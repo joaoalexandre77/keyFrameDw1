@@ -20,6 +20,26 @@ body{
     border: 10px solid black;
 }
 
+.bulba{
+    position: absolute;
+    z-index: 2;
+    bottom: 35%;
+    left: 51%;
+
+}
+
+.char{
+    position: absolute;
+    z-index: 2;
+     left: 38%;
+    bottom: 70%;
+
+}
+
+.char{
+    position: absolute;
+    z-index: 2;
+}
 .sprite{
     width: 160px;
     height: 233px;
